@@ -114,7 +114,7 @@ body:
         Science Academy, ETH, etc.
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: local_organizer
     attributes:
       label: Would you like to act as local organizer?
