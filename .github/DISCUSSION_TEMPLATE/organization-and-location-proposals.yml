@@ -1,0 +1,136 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The yearly EuBIC-MS events (Winter School and Developers Meeting) each time take place in a
+        different European country. To facilitate the organization, we usually team up with two
+        local organizers who know the location and the language.
+        
+        With the full support of the EuBIC-MS organizational team, the local organizers are
+        responsible for / asked to:
+        
+        - Be the main points-of-contact for the event organization
+        - Take the lead to delegate and follow up on all organizational aspects of the event
+        - Be present at the in-person EuBIC-MS Organizational Meeting the year before the
+          conference. This usually takes place in September.
+        - Be present at the online organizational meetings for planning the event
+        - Take care of communication with venue
+        - Lead the day-to-day organization during the event
+        - Be present at the debriefing meeting of the event with EuBIC
+        - Take the lead on writing the proceedings publication
+        
+        Requirements for the venue:
+        - Capacity should be between 50 and 80 participants (including speakers and organizers)
+        - Ideally conference venue and lodging at one location
+        - Required rooms: 1 large auditorium, sufficient breakout rooms (around 10 separate
+          hackathons), hall for poster session.
+        - Optimal if catering (lunch, potentially dinner) is on site
+        - The location can be remote, but ideally not more than two hours from a large
+          transportation hub (e.g., airport)
+        
+        For more information, do not hesitate to reach out on Slack (if you are already a
+        member, if not, consider [becoming a member](https://eubic-ms.org/become-a-member/)) or
+        write to us by email.
+
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country
+      description: "Which country do you propose?"
+      options:
+        - Albania
+        - Andorra
+        - Austria
+        - Belarus
+        - Belgium
+        - Bosnia and Herzegovina
+        - Bulgaria
+        - Croatia
+        - Czech Republic (Czechia)
+        - Denmark
+        - Estonia
+        - Finland
+        - France
+        - Germany
+        - Greece
+        - Hungary
+        - Iceland
+        - Ireland
+        - Italy
+        - Latvia
+        - Liechtenstein
+        - Lithuania
+        - Luxembourg
+        - Malta
+        - Moldova
+        - Monaco
+        - Montenegro
+        - Netherlands
+        - North Macedonia
+        - Norway
+        - Poland
+        - Portugal
+        - Romania
+        - San Marino
+        - Serbia
+        - Slovakia
+        - Slovenia
+        - Spain
+        - Sweden
+        - Switzerland
+        - Ukraine
+        - United Kingdom
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      description: Proposed venue (e.g. name and URL to homepage)
+    validations:
+      required: false
+  - type: textarea
+    id: motivation
+    attributes:
+      label: What makes this a good location a EuBIC-MS Developers Meeting?
+    validations:
+      required: true
+  - type: textarea
+    id: connectivity
+    attributes:
+      label: Connectivity
+      description: |
+        How easy is it to reach the location? Are there nearby airports, train stations, or other
+        transportation options?
+    validations:
+      required: true
+  - type: textarea
+    id: funding
+    attributes:
+      label: Funding
+      description: |
+        Are there local funding opportunities for the event, such as local societies or the venue
+        itself? For instance, past events have been supported by Novo Nordisk, the Danish Data
+        Science Academy, ETH, etc.
+    validations:
+      required: true
+  - type: checkbox
+    id: local_organizer
+    attributes:
+      label: Would you like to act as local organizer?
+      options:
+        - label: Just an idea for the location
+        - label: Perhaps up for organizing
+        - label: Likely up for organizing
+        - label: Would love to organize the event!
+    validations:  
+      required: true 
+  - type: input
+    id: names
+    attributes:
+      label: Names of local organizers
+      description: |
+        If you are up for organizing, please provide your name(s).
+    validations:
+      required: false
+
