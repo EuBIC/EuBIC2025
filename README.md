@@ -1,7 +1,7 @@
 # EuBIC 2025 developers' meeting on Computational Mass Spectrometry
 ### 2. - 7. February 2025, Vahrn, Italy
 
-![Logo](graphics/EuBIC_2025_background_long_transparent.png)
+![Logo](graphics/logo_2025.png)
 
 This repository is the home for all discussions and proposals regarding the EuBIC-MS Developers Meeting 2025.
 
