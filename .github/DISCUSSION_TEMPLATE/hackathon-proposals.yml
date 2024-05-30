@@ -1,9 +1,10 @@
 body:
 - type: markdown
-  value: |
-    Thank for contributing a hackathon proposal for the EuBIC Developer Meeting 2025!
-    Before you fill this out please make sure to read the [full guidelines for proposals](https://github.com/EuBIC/EuBIC2025/blob/main/FullGuidelines.md).
-    If you want to provide any additional information outside what this form requires please comment of the discussion after you created it.
+  attributes:
+    value: |
+      Thank for contributing a hackathon proposal for the EuBIC Developer Meeting 2025!
+      Before you fill this out please make sure to read the [full guidelines for proposals](https://github.com/EuBIC/EuBIC2025/blob/main/FullGuidelines.md).
+      If you want to provide any additional information outside what this form requires please comment of the discussion after you created it.
 - type: input
   id: title
   attributes:
