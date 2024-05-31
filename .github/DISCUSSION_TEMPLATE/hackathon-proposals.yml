@@ -10,7 +10,7 @@ body:
   attributes:
     label: Title
     description: "A catchy working title for your hack! 😄"
-    placeholder: "Probably something with AI and proteomics"
+    placeholder: "Probably something regarding mass spectrometry"
   validations:
     required: true
 - type: textarea
