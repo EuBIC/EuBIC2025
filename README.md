@@ -44,5 +44,5 @@ Create a **[discussion](https://github.com/EuBIC/EuBIC2025/discussions/new?categ
 
 ### Important deadlines
 
-- Hackathons proposal deadline: September 30th, 2024
+- Hackathons proposal deadline: ~~September 30th~~ 14th October, 2024
 - Notification of accepted hackathons: November 1st, 2024
