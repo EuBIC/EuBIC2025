@@ -13,7 +13,12 @@ For more information about the meeting, please check the **[official website](ht
 
 ## Submission of project proposals 
 
-Topics for the hackathon sessions during the EuBIC 2025 developers meeting can now be proposed!
+The submission forms are closed and the [top 7 hackathons have been selected](https://github.com/EuBIC/EuBIC2025/discussions/16).
+Follow the [discussions on the individual projects](https://github.com/EuBIC/EuBIC2025/discussions/categories/hackathon-proposals) to find out more and prepare for the event.
+
+There is no need to settle on a specific project upfront, we will create the groups on the first day of the meeting after hearing short presentations on all projects.
+
+----
 
 Please carefully read the **[full guidelines](https://github.com/eubic/EuBIC2025/blob/master/FullGuidelines.md)** before submitting a project proposal and make sure to add all relevant information to your proposal. Examples from the EuBIC 2023 developers meeting can be found **[here](https://github.com/eubic/EuBIC2023/issues/3)**.
 
